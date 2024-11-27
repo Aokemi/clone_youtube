@@ -22,6 +22,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -31,23 +32,23 @@ h1 {
 }
 
 .app-container {
-  display: flex; /* La sidebar et le contenu sont côte à côte */
-  height: 100vh; /* Prend toute la hauteur de la fenêtre */
+  display: flex;
+  height: 100vh;
 }
 
 .main-content {
-  flex: 1; /* Prend l'espace restant après la sidebar */
-  display: flex; /* Active le mode flexbox pour aligner le contenu */
-  flex-direction: column; /* Les éléments à l'intérieur sont empilés */
-  justify-content: flex-start; /* Les éléments sont alignés en haut */
-  align-items: flex-start; /* Aligne les éléments à gauche */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 20px;
   background-color: #f9f9f9;
 }
 
 /* --------------------------------------------------------- */
 
-/* Tabs style */
+/* Tabs */
 
 .tab-button {
   padding: 10px;
@@ -64,9 +65,9 @@ h1 {
 }
 
 .tabs {
-  display: flex; /* Affiche les onglets horizontalement */
-  gap: 10px; /* Espacement entre les onglets */
-  margin-bottom: 20px; /* Ajoute de l'espace entre les onglets et le contenu */
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .tab-content {
@@ -74,12 +75,12 @@ h1 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #fff;
-  margin-top: 20px; /* Ajoute un espace entre les onglets et le contenu */
+  margin-top: 20px;
 }
 
 /* --------------------------------------------------------- */
 
-/* Sidebar style */
+/* Sidebar */
 
 .sidebar {
   width: 250px;
