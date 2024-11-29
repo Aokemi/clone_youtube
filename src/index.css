@@ -28,7 +28,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 .app-container {
@@ -109,4 +109,43 @@ h1 {
 
 .menu-text {
   font-size: 16px;
+}
+
+/* --------------------------------------------------------- */
+
+/* Search Bar */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 10px;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 8px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #45a049;
 }
