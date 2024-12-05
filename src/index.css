@@ -55,7 +55,7 @@ h1 {
   cursor: pointer;
   border: none;
   background-color: lightgray;
-  border-radius: 5px;
+  border-radius: 15px;
   transition: background-color 0.3s;
 }
 
@@ -73,7 +73,7 @@ h1 {
 .tab-content {
   padding: 20px;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: #fff;
   margin-top: 20px;
 }
@@ -123,14 +123,14 @@ h1 {
   gap: 10px;
   margin-bottom: 10px;
   background-color: #f1f1f1;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .search-input {
   flex: 1;
   padding: 8px;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 15px;
   outline: none;
   font-size: 16px;
 }
@@ -140,7 +140,7 @@ h1 {
   background-color: #4caf50;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s;
