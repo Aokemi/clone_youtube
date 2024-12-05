@@ -59,8 +59,12 @@ h1 {
   transition: background-color 0.3s;
 }
 
+.tab-button:hover {
+  background-color: #059212;
+}
+
 .tab-button.active {
-  background-color: #4caf50;
+  background-color: #06D001;
   color: white;
 }
 
@@ -137,7 +141,7 @@ h1 {
 
 .search-button {
   padding: 8px 15px;
-  background-color: #4caf50;
+  background-color: #06D001;
   color: white;
   border: none;
   border-radius: 15px;
@@ -147,5 +151,23 @@ h1 {
 }
 
 .search-button:hover {
-  background-color: #45a049;
+  background-color: #059212;
+}
+
+/* --------------------------------------------------------- */
+
+/* Burger Menu */
+
+.burger-menu {
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.burger-menu:hover {
+  background-color: #dcdcdc;
 }
